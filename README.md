@@ -1,19 +1,30 @@
 # 📊 Análisis de Desempeño Económico (Ventas & Marketing)
 
-Este repositorio contiene el código fuente y la documentación para el **Análisis Exploratorio de Datos (EDA)**, la **limpieza de datos** y la **detección de productos de Alto Rendimiento** y **campañas de marketing exitosas**.
+Este repositorio contiene el código y la documentación del Análisis Exploratorio de Datos (EDA) del negocio, incluyendo:
+* Limpieza y estandarización de datos
+* Análisis de ventas por producto, categoría y mes
+* Identificación de productos de alto rendimiento
+* Evaluación de campañas y canales de marketing
+* KPIs del negocio
+* Visualizaciones clave
+* Consolidación final para toma de decisiones
 
-El objetivo es aprender los fundamentos del flujo de trabajo en data science: **cargar, limpiar, analizar y visualizar datos**.
+El objetivo del proyecto es recorrer todo el flujo de trabajo de un analista de datos:
+cargar → limpiar → analizar → visualizar → interpretar → consolidar insights.
 
 ---
 
 ## 🚀 Objetivos del Proyecto
 
-* Explorar un conjunto de datos con Python.
-* Aplicar técnicas básicas de limpieza y estandarización.
-* Analizar patrones y tendencias iniciales.
-* Visualizar la información con herramientas modernas.
+* Limpiar y preparar datasets reales
+* Analizar tendencias, patrones y variaciones en ventas
+* Identificar productos más rentables y de mayor volumen
+* Evaluar el impacto del marketing en las ventas
+* Crear visualizaciones con técnicas modernas
+* Construir un conjunto final de KPIs para la toma de decisiones
+* Comunicar insights de manera clara y accionable
 
-📚 *Este proyecto se enmarca dentro de mi proceso de aprendizaje en el curso Análisis de Datos con Python.*
+📚 Proyecto desarrollado como parte del curso “Análisis de Datos con Python – 2025”.
 
 ---
 
@@ -21,7 +32,7 @@ El objetivo es aprender los fundamentos del flujo de trabajo en data science: **
 
 * **Entorno:** Google Colab
 * **Lenguaje:** Python 3.x
-* **Librerías Principales:** `pandas`, `numpy`, `unidecode`
+* **Librerías Principales:** `pandas`, `numpy`, `matplotlib`, `unidecode`, `seaborn`, `scipy`
 * **Datos:** Archivos CSV de Ventas, Clientes y Marketing.
 
 ---
@@ -32,9 +43,20 @@ El objetivo es aprender los fundamentos del flujo de trabajo en data science: **
 2.  **Limpieza de Datos:**
     * Eliminación de duplicados y valores nulos.
     * Estandarización de nombres y formatos (p. ej., minúsculas y eliminación de acentos).
-3.  **Análisis Exploratorio (EDA):** Estadísticas descriptivas (media, mediana, percentiles).
+3.  **Análisis Exploratorio (EDA):** 
+    * Análisis Descriptivo
+    * Análisis Temporal
+    * Análisis por Producto
+    * Análisis por Categoría
+    * Análisis de Marketing
 
----
+## 📈 Visualizaciones Generadas
+   * Barras por producto, categoría y mes
+   * Histogramas y boxplots
+   * Heatmaps de ventas por mes y categoría
+   * Heatmap de ventas de los top 10 productos del año
+   * Scatterplots para correlación
+   * Líneas de ingresos semanales.
 
 ## 📂 Estructura del Repositorio
 ```
@@ -43,18 +65,15 @@ El objetivo es aprender los fundamentos del flujo de trabajo en data science: **
 │   ├── clientes.csv
 │   └── marketing.csv
 ├── notebooks/
-│   └── fernandez_emilia_comision_25262.ipynb
+│   └── proyecto_final_fernandez_emilia_comision_25262.ipynb
 └── README.md
 ```
----
 
 ## 💬 Resultados Esperados
 
 * Comprender las bases del análisis exploratorio.
 * Practicar el uso de pandas y numpy.
 * Empezar a comunicar resultados con métricas.
-
----
 
 ## 👩‍💻 Autor
 
